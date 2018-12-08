@@ -1,0 +1,3 @@
+We worked together and discussed all the questions with each other using Google Docs.
+
+The only change that we needed to do in our code was moving regex declarations to an array which was done by Alish Akhmetzyanov and inspected later by Cyrus Chen. 

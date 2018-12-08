@@ -1,0 +1,47 @@
+Alish Akhmetzyanov:
+	ast.cc: 
+		- Added CppCode statements for ast classes for .cc file generation
+		
+	Makefile:
+		- Fixed dependencies issues in Makefile and added codegeneration targets
+	parser.cc:
+		- Fixed errors for ast tree generation and added statements for handling expressions with matrices
+	
+	/samples	
+		- Added my_code_2.dsl
+
+Cyrus Chen:
+
+	matrix.cc & matrix.h:
+		- overloading opeartors* and <<
+		- implementing class member functions
+		
+	ast.cc:
+		- add CppCode() for matrix related component
+		- fixing errors that cuasing the translator not functioning correctly
+	/samples:
+		- added my_code_1.dsl
+	
+	
+	
+Git log:
+
+
+c6c2950 was Cyrus Chen, 6 minutes ago, message: chen3736 applying google style, add division of work statement
+44e6ae4 was Alish, 46 minutes ago, message: akhme004 @ 21:34 05/02/17 Added my_code_2.dsl with program that calculates exponent
+5899234 was Alish, 47 minutes ago, message: akhme004 @ 21:34 05/02/17 Added my_code_2.dsl with program that calculates exponent
+48a2985 was Cyrus Chen, 2 hours ago, message: chen3736 add expected value for my_code_1
+fc9f2d6 was Cyrus Chen, 3 hours ago, message: chen3736@7:05 finish operator* overloading for matrix.cc , finish and pass my_code_1 test, fix most errors in forest_loss test. One error remaining in line 93.
+b202454 was Alish, 2 days ago, message: akhme004 @ 19:05 04/30/17 -Added let statement translation using {} initilizer using C11 like syntax. sample_3 in codegen tests now passes
+fdb0c93 was Cyrus Chen, 3 days ago, message: minor fix ast.cc function call, data.n_rows not parsing correct
+f03109f was Cyrus Chen, 3 days ago, message: cyrus chen, fix MatrixDecl in ast.cc, fix matrix_read and operator>>, passes sample8 test.
+1227071 was Cyrus Chen, 3 days ago, message: cyrus chen, fix MatrixDecl in ast.cc, fix matrix_read and operator>>, passes sample8 test.
+a4bff43 was Cyrus Chen, 3 days ago, message: fixing a segfault from ast.cc, MatrixDecl needs work.
+053db8c was Cyrus Chen, 3 days ago, message: Cyrus Chen, finished matrix part of ast.cc, fixing operator cpp code in ast.cc, passes 5 code gene test
+4758293 was Cyrus Chen, 3 days ago, message: finished matrix.cc, modify matrix_read, overloading operator [] to access matrix elements.
+9a0254f was Alish, 4 days ago, message: akhme004@12AM 04/29 Corrected makefile, added matrix support for ast trees, added matrix parsing to parser.cc, fixed class inheritance issues in ast.cc, updated makefile
+bf1c433 was Alish, 4 days ago, message: akhme004@12AM 04/29 Corrected makefile, added matrix support for ast trees, added matrix parsing to parser.cc, fixed class inheritance issues in ast.cc, updated makefile
+92bbede was Cyrus Chen, 6 days ago, message: implementing constructor and operator overloading for matrix.cc, matrix_read is not done
+f7bcaa5 was Alish, 7 days ago, message: fixes to parsing regexes
+fb26ce3 was Alish, 8 days ago, message: added cpp code functionality, updated makefile and addded codegeneration target
+d324105 was Alish, 10 days ago, message: Iteration 3 now completed, few small errors in ast.h and as.cc and makefile fixed. New files are added

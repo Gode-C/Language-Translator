@@ -1,0 +1,7 @@
+Group Faraday
+
+Alish Akhmetzyanov: 
+  Class definitions in scanner.h, regex definitions in scanner.cc,
+  implementation of Scanner class and Token class and all its member functions.
+
+Cyrus Chen: Test cases for each token type in scanner_tests.h.

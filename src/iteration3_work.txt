@@ -1,0 +1,21 @@
+Alish Akhmetzyanov:
+	parser.cc:
+		- Added necessary statetements for ast tree generation and parsing
+		- Added dOxygen compliant documentation for functions
+	ast.h:
+		- Added classes necessary for creating DSL ast tree structure  
+		- Added dOxygen compliant documentation for classes
+	ast.cc:
+		- Defined constructors and unparse methods for all the classes used in ast tree generation
+<<<<<<< HEAD
+		
+		
+Cyrus Chen:
+
+	Set up dOxygen and generate UML
+	Add dOxygen compliant documentation for functions and classes
+
+=======
+	makefile
+		- Added statements for ast tests generation and run-tests.
+>>>>>>> 1f60639873b7793b6a5757ccde643c5940109a23
