@@ -1,7 +1,7 @@
 # Language-Translator
 
 C++ project 
-translate programs from the domain specific programming language FCAL (Forest Conver Analysis Language) into C++ programs
+translate programs from the domain specific programming language FCAL (Forest Cover Analysis Language) into C++ programs
 
 ### Group members:
 Alish Akhmetzyanov  
